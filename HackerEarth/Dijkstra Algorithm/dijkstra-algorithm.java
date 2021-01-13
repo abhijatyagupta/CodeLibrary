@@ -36,8 +36,7 @@ class TestClass {
         while(!pq.isEmpty()) {
             int u = pq.poll().value; // popped node index
             visited[u] = true;
-            ArrayList<Node> neighbors = adj.get(u); //reference to neighboring nodes of the popped node (for convenience)
-            for(Node neighbor: neighbors) {
+            for(Node neighbor: adj.get(u)) {
                 if(!visited[neighbor.value]) { //if the neighbor is unvisited
                     int calculatedDistance = dist[u] + neighbor.weight; // distance from source to popped node + distance from popped node to neighbor
                     if(calculatedDistance < dist[neighbor.value]) { // if calculatedDistance is less than distance from source to neighbor

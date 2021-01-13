@@ -49,7 +49,6 @@ class TestClass {
     }
 }
 
-
 class Node implements Comparable {
     int value;  //index of the node
     int weight; //weight of the path to this node

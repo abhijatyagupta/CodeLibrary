@@ -32,7 +32,6 @@ class TestClass {
         dist[source] = 0;
         PriorityQueue<Node> pq = new PriorityQueue<>();
         pq.offer(new Node(source, 0)); //adding source node to queue
-
         while(!pq.isEmpty()) {
             int u = pq.poll().value; // popped node index
             visited[u] = true;

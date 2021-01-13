@@ -46,7 +46,7 @@
 		<div id="DIV_36">
 			<div id="DIV_37">
 				<div id="DIV_38">
-					SAMPLE INPUT
+					Sample Input
 				</div>
 				<div id="DIV_44">
 				</div>
@@ -68,7 +68,7 @@
 		<div id="DIV_47">
 				<div id="DIV_48">
 					<div id="DIV_49">
-						SAMPLE OUTPUT
+						Sample Output
 					</div>
 					<div id="DIV_55">
 					</div>

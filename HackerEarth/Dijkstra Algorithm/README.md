@@ -1,7 +1,4 @@
 <div id="DIV_1">
-	<div id="DIV_2">
-		Dijkstra's Algorithm
-	</div>
 	<div id="DIV_3">
     <a href="https://www.hackerearth.com/problem/algorithm/dijkstra-1-52a4305d"><h2>Dijkstra Algorithm</h2></a>
 		<p id="P_5">

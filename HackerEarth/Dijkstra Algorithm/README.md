@@ -1,13 +1,11 @@
 <div id="DIV_1">
 	<div id="DIV_3">
     <a href="https://www.hackerearth.com/problem/algorithm/dijkstra-1-52a4305d"><h2>Dijkstra Algorithm</h2></a>
+		Though the input is an adjacency matrix, I convert it to adjacency list and then solve using priority queue.
+		<br><br>
 		<p id="P_5">
 			You will be given an adjacency matrix of an undirected graph and some q queries.
-		</p>
-		<p id="P_6">
 			Each query contains two integers(0-indexed) denoting the source and destination vertices.
-		</p>
-		<p id="P_7">
 			For every query you need to print the shortest path between the given two vertices.
 		</p>
 		<p id="P_8">

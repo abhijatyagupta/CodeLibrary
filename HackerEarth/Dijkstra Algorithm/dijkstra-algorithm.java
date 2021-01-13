@@ -19,7 +19,7 @@ class TestClass {
             String[] s = br.readLine().split(" "); //______________________________|
             int source = Integer.parseInt(s[0]);
             int destination = Integer.parseInt(s[1]);
-            int[] dist = new int[vertices];
+            int[] dist = new int[vertices]; //array that will store distance to nodes from source
             dijsktra(vertices, adj, source, dist);  //call to actual shit
             System.out.println(dist[destination]);
         }
@@ -28,20 +28,20 @@ class TestClass {
 
     static void dijsktra(int vertices, ArrayList<ArrayList<Node>> adj, int source, int[] dist) {
         boolean[] visited = new boolean[vertices];
-        Arrays.fill(dist, Integer.MAX_VALUE);
-        dist[source] = 0;
+        Arrays.fill(dist, Integer.MAX_VALUE); //it is safe to assume that distance to every node is largest it can be, initially
+        dist[source] = 0; //distance from source to itself will be zero
         PriorityQueue<Node> pq = new PriorityQueue<>();
         pq.offer(new Node(source, 0)); //adding source node to queue
         while(!pq.isEmpty()) {
-            int u = pq.poll().value; // popped node index
-            visited[u] = true;
+            int u = pq.poll().value; //popped node index
+            visited[u] = true;       //mark the popped node as visited
             for(Node neighbor: adj.get(u)) {
                 if(!visited[neighbor.value]) { //if the neighbor is unvisited
-                    int calculatedDistance = dist[u] + neighbor.weight; // distance from source to popped node + distance from popped node to neighbor
-                    if(calculatedDistance < dist[neighbor.value]) { // if calculatedDistance is less than distance from source to neighbor
-                        pq.remove(new Node(neighbor.value, dist[neighbor.value])); // remove the node from queue if it exists, since now we have a shorter path to node
-                        dist[neighbor.value] = calculatedDistance; //updates the distance from source to neighbor
-                        pq.offer(new Node(neighbor.value, calculatedDistance)); //adds the node to queue with updated distance
+                    int calculatedDistance = dist[u] + neighbor.weight; //distance from source to popped node + distance from popped node to neighbor
+                    if(calculatedDistance < dist[neighbor.value]) {     //if calculatedDistance is less than distance from source to neighbor
+                        pq.remove(new Node(neighbor.value, dist[neighbor.value])); //remove the node from queue if it exists, since now we have a shorter path to node
+                        dist[neighbor.value] = calculatedDistance;                 //updates the distance from source to neighbor
+                        pq.offer(new Node(neighbor.value, calculatedDistance));    //adds the node to queue with updated distance
                     }
                 }
             }

@@ -8,7 +8,7 @@ class TestClass {
         ArrayList<ArrayList<Node>> adj = new ArrayList<>();//                      |
         for(int i = 0; i < vertices; i++) {//                                      |
             adj.add(new ArrayList<Node>());//                                      |
-            String[] s = br.readLine().split(" ");//                          |
+            String[] s = br.readLine().split(" ");//                               |
             for(int j = 0; j < s.length; j++) {//                                  stupid input shit
                 int temp = Integer.parseInt(s[j]);//                               |
                 if (temp != 0) adj.get(i).add(new Node(j, temp));//                |
@@ -16,7 +16,7 @@ class TestClass {
         }//                                                                        |
         int q = Integer.parseInt(br.readLine());//                                 |
         while(q-- != 0) {//                                                        |
-            String[] s = br.readLine().split(" "); //_________________________|
+            String[] s = br.readLine().split(" "); //______________________________|
             int source = Integer.parseInt(s[0]);
             int destination = Integer.parseInt(s[1]);
             int[] dist = new int[vertices];

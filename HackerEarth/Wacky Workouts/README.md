@@ -12,10 +12,10 @@
 <strong>Constraints</strong>
 <p>1 &lt;= <strong>T</strong> &lt;= 60000</p>
 <p>1 &lt;= <strong>N</strong> &lt;=  10<sup>18</sup></p></div>
-            <div class="less-margin-2 input-output-container">
-                <div class="input-output right-border">
-                    <div class="form-label">
-                        <div class="weight-600 less-margin-right light float-left small"><strong>Sample Input</strong></div>
+            <div>
+                <div>
+                    <div>
+                        <div><strong>Sample Input</strong></div>
                         <div class="input-output-opt float-right">
                             <a href="https://he-s3.s3.amazonaws.com/media/hackathon/programmers-parliament/problems/ec457adef8-sample-input-ec4436f.txt?Signature=3f3MkVqMwYS5uC2RbzM1MFenwD4%3D&amp;Expires=1612205776&amp;AWSAccessKeyId=AKIA6I2ISGOYH7WWS3G5" class="track-problem-sample-input tool-tip" target="_blank"><i class="fa fa-link"></i></a>
                             <a class="track-problem-sample-input-copy input-output-copy tool-tip"><i class="fa fa-files-o"></i></a>

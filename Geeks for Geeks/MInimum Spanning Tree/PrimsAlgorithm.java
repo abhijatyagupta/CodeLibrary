@@ -26,7 +26,7 @@ class Solution {
             visited[currentNode] = true;  // marking the node as visited
             ArrayList<ArrayList<Integer>> list = adj.get(currentNode);      //neighbors of node from adjacency list
             for(ArrayList<Integer> x : list) {
-                int destinationNode = x.get(0);     //value of the neighbor node
+                int destinationNode = x.get(0);     // value of the neighbor node
                 int weight = x.get(1);      // weight of edge from current node to neighbor node
                 if(!visited[destinationNode]) {
                     if (weight < latestWeight.get(destinationNode)) {       // if weight of edge is less than latest weight we know (stored in map)

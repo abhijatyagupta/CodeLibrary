@@ -7,7 +7,7 @@ class Solution {
         boolean[] visited = new boolean[V];
         int[] parent = new int[V];
 
-        HashMap<Integer, Integer> latestWeight = new HashMap<>(); // will store most updated weight of node. required since getting a random element from queue not possible
+        HashMap<Integer, Integer> latestWeight = new HashMap<>(); // will store most updated weight of node. required since getting a random element from queue is not possible
         PriorityQueue<Node> queue = new PriorityQueue<>();  // will provide the unvisited node with minimum weight
 
         parent[0] = -1;     //first node setup

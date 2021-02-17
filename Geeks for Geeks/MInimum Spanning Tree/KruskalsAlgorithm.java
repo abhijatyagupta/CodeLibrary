@@ -4,7 +4,6 @@ import java.lang.*;
 
 class Solution {
     static int spanningTree(int V, ArrayList<ArrayList<ArrayList<Integer>>> adj) {
-        boolean[] visited = new boolean[V];
         int[] parent = new int[V];
 
         PriorityQueue<Edge> queue = new PriorityQueue<>();

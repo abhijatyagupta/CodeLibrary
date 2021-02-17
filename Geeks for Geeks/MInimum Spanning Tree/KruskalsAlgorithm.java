@@ -42,7 +42,6 @@ class Solution {
 }
 
 
-
 class Edge implements Comparable<Edge> {
     int source;
     int destination;

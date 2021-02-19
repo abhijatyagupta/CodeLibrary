@@ -7,7 +7,7 @@ class Solution{
         ArrayList<ArrayList<Integer>> list = new ArrayList<>(); // list that will hold all the possible permutations
         for(int i = 0; i < n; i++) {    // traverse for each cell of the first row
             boolean[][] board = new boolean[n][n];  // the chess board
-            boolean[] isColumnOccupied = new boolean[n];    // will tell whether a column is occupied by a queen. (Such an array is not required for rows since the board will be traversed row by row and it will be obvious that no queen already exist on the current row that is being traversed)
+            boolean[] isColumnOccupied = new boolean[n];    // will tell whether a column is occupied by a queen. (Such an array is not required for rows since the board will be traversed row by row and it will be obvious that no queen already exist in the current row that is being traversed)
             ArrayList<Integer> permutation = new ArrayList<>(); // will hold a particular permutation
             nQueenHelper(board, isColumnOccupied, list, permutation, 0, i); // call to actual shit
         }

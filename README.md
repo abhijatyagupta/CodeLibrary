@@ -12,4 +12,7 @@ A repo for my submissions to online coding and competitive programming platforms
   - [Travelling Salesman Problem](Geeks%20for%20Geeks/Travelling%20Salesman%20Problem) - using DFS
 - [Knight's Tour](Geeks%20for%20Geeks/Steps%20by%20Knight) - using BFS
 - [Flood fill Algorithm](Geeks%20for%20Geeks/Flood%20fill%20Algorithm)
+
+## Searching & Sorting
 - [Quadruplets with a given sum](LeetCode/4Sum) - using Two Pointers Technique
+- [Maximum array sum without adjacent elements](Geeks%20for%20Geeks/Stickler%20Theif) - using Dynamic Programming with Recursion

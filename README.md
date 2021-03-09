@@ -17,3 +17,4 @@ A repo for my submissions to online coding and competitive programming platforms
 - [Quadruplets with a given sum](LeetCode/4Sum) - using Two Pointers Technique
 - [Triplets with sum less than X](Geeks%20for%20Geeks/Count%20triplets%20with%20sum%20smaller%20than%20X)
 - [Maximum array sum without adjacent elements](Geeks%20for%20Geeks/Stickler%20Theif) - using Dynamic Programming with Recursion
+- [Merge two sorted arrays in constant space](Geeks%20for%20Geeks/Merge%20Without%20Extra%20Space)

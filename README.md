@@ -19,3 +19,4 @@ A repo for my submissions to online coding and competitive programming platforms
 - [Maximum array sum without adjacent elements](Geeks%20for%20Geeks/Stickler%20Theif) - using Dynamic Programming with Recursion
 - [Merge two sorted arrays in constant space](Geeks%20for%20Geeks/Merge%20Without%20Extra%20Space)
 - [Zero Sum Subarrays](Geeks%20for%20Geeks/Zero%20Sum%20Subarrays)
+- [Search element in a sorted, but rotated, array](Geeks%20for%20Geeks/Search%20in%20a%20Rotated%20Array)

@@ -1,5 +1,5 @@
 # CodeLibrary
-A repo for my submissions to online coding and competitive programming platforms like CodeChef, CodeForces, HackerRank, LeetCode, etc.
+A repo for my submissions to online coding and competitive programming platforms like CodeChef, CodeForces, Geeks for Geeks, HackerRank, LeetCode, etc.
 
 ## Algorithms
 (See .java files for code and explanation)

@@ -18,9 +18,9 @@ class Solution {
             int mid = start + ((end - start)/2);
             if (isValid(mid, totalPages, a, m)) {   // if the books can be allocated to students, each having total pages <= mid
                 ans = mid;  // store this as a potential answer
-                end = mid - 1;  // decrease the range from start to mid -1
+                end = mid - 1;  // the upper bound of range will shift to mid - 1
             }
-            else start = mid + 1; // decrease the range from mid + 1 to end
+            else start = mid + 1; // the lower bound of range will shift to mid + 1
         }
         return ans;
     }

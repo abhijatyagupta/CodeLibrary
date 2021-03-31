@@ -21,3 +21,4 @@ A repo for my submissions to online coding and competitive programming platforms
 - [Zero Sum Subarrays](Geeks%20for%20Geeks/Zero%20Sum%20Subarrays)
 - [Search element in a sorted, but rotated, array](Geeks%20for%20Geeks/Search%20in%20a%20Rotated%20Array)
 - [Allocate minimum number of pages](Geeks%20for%20Geeks/Allocate%20minimum%20number%20of%20pages)
+- [Randomised Quick Sort](Geeks%20for%20Geeks/Quick%20Sort)

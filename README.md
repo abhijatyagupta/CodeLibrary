@@ -23,3 +23,46 @@ A repo for my submissions to online coding and competitive programming platforms
 - [Allocate minimum number of pages](Geeks%20for%20Geeks/Allocate%20minimum%20number%20of%20pages)
 - [Randomised Quick Sort](Geeks%20for%20Geeks/Quick%20Sort)
 - [Heap Sort](Geeks%20for%20Geeks/Heap%20Sort)
+
+<table>
+<thead>
+  <tr>
+    <th rowspan=2>Sorting Algorithms</th>
+    <th colspan=3>Time Complexities</th>
+  </tr>
+  <tr>
+    <th>Best</th>
+    <th>Average</th>
+    <th>Worst</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Selection Sort</td>
+    <td>&nbsp;&nbsp;&nbsp;Ω(n<sup>2</sup>)</td>
+    <td rowspan=3>θ(n<sup>2</sup>)</td>
+    <td rowspan=4>O(n<sup>2</sup>)</td>
+  </tr>
+  <tr>
+    <td>Bubble Sort</td>
+    <td rowspan=2>&nbsp;&nbsp;&nbsp;Ω(n)</td>
+  </tr>
+  <tr>
+    <td>Insertion Sort</td>
+  </tr>
+  <tr>
+    <td><a href="Geeks%20for%20Geeks/Quick%20Sort">Quick Sort</a></td>
+    <td rowspan=3>Ω(nlog(n))</td>
+    <td rowspan=3>θ(nlog(n))</td>
+<!--     <td>O(n<sup>2</sup>)</td> -->
+  </tr>
+  <tr>
+    <td><a href="Geeks%20for%20Geeks/Heap%20Sort">Heap Sort</a></td>
+    <td rowspan=2>&nbsp;&nbsp;O(nlog(n))</td>
+  </tr>
+  <tr>
+    <td>Merge Sort</td>
+<!--     <td>O(nlog(n))</td> -->
+  </tr>
+</tbody>
+</table>

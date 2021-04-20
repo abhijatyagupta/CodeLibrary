@@ -54,7 +54,6 @@ A repo for my submissions to online coding and competitive programming platforms
     <td><a href="Geeks%20for%20Geeks/Quick%20Sort">Quick Sort</a></td>
     <td rowspan=3>Ω(nlog(n))</td>
     <td rowspan=3>θ(nlog(n))</td>
-<!--     <td>O(n<sup>2</sup>)</td> -->
   </tr>
   <tr>
     <td><a href="Geeks%20for%20Geeks/Heap%20Sort">Heap Sort</a></td>
@@ -62,7 +61,6 @@ A repo for my submissions to online coding and competitive programming platforms
   </tr>
   <tr>
     <td>Merge Sort</td>
-<!--     <td>O(nlog(n))</td> -->
   </tr>
 </tbody>
 </table>
@@ -70,4 +68,5 @@ A repo for my submissions to online coding and competitive programming platforms
 ## Dynamic Programming
 - [0 - 1 Knapsack Problem](Geeks%20for%20Geeks/0%20-%201%20Knapsack%20Problem)
 - [Coin Change Problem](Geeks%20for%20Geeks/Coin%20Change)
+- [Edit Distance](Geeks%20for%20Geeks/Edit%20Distance)
 

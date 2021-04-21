@@ -68,5 +68,6 @@ A repo for my submissions to online coding and competitive programming platforms
 ## Dynamic Programming
 - [0 - 1 Knapsack Problem](Geeks%20for%20Geeks/0%20-%201%20Knapsack%20Problem)
 - [Coin Change Problem](Geeks%20for%20Geeks/Coin%20Change)
+- [Matrix Chain Multiplication](Geeks%20for%20Geeks/Matrix%20Chain%20Multiplication)
 - [Edit Distance](Geeks%20for%20Geeks/Edit%20Distance)
 

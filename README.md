@@ -70,4 +70,5 @@ A repo for my submissions to online coding and competitive programming platforms
 - [Coin Change Problem](Geeks%20for%20Geeks/Coin%20Change)
 - [Matrix Chain Multiplication](Geeks%20for%20Geeks/Matrix%20Chain%20Multiplication)
 - [Edit Distance](Geeks%20for%20Geeks/Edit%20Distance)
+- [Longest Increasing Subsequence](Geeks%20for%20Geeks/Longest%20Increasing%20Subsequence)
 

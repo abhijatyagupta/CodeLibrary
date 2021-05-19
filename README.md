@@ -73,3 +73,4 @@ A repo for my submissions to online coding and competitive programming platforms
 - [Longest Increasing Subsequence](Geeks%20for%20Geeks/Longest%20Increasing%20Subsequence)
 - [Longest Common Substring](Geeks%20for%20Geeks/Longest%20Common%20Substring)
 - [Maximum sum increasing subsequence](Geeks%20for%20Geeks/Maximum%20sum%20increasing%20subsequence)
+- [Largest square submatrix with all 1s](Geeks%20for%20Geeks/Largest%20square%20formed%20in%20a%20matrix)

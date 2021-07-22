@@ -76,5 +76,5 @@ A repo for my submissions to online coding and competitive programming platforms
 - [Count Palindromic Subsequences](Geeks%20for%20Geeks/Count%20Palindromic%20Subsequences)
 - [Maximum sum increasing subsequence](Geeks%20for%20Geeks/Maximum%20sum%20increasing%20subsequence)
 - [Largest square submatrix with all 1s](Geeks%20for%20Geeks/Largest%20square%20formed%20in%20a%20matrix)
-- [Best Time to Buy and Sell Stock II](LeetCode/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II) - infinite transactions allowed
+- [Best Time to Buy and Sell Stock III](LeetCode/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III) - at most 2 transactions allowed
 - [Best Time to Buy and Sell Stock IV](LeetCode/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV) - using bottom-up dp

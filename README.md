@@ -3,6 +3,9 @@ A repo for my submissions to online coding and competitive programming platforms
 
 (See .java or .swift files for code and explanation)
 
+## Trees
+- [Recover Binary Search Tree](InterviewBit/Recover%20Binary%20Search%20Tree)
+
 ## Algorithms & Graphs
 - [Dijkstra's Algorithm](HackerEarth/Dijkstra%20Algorithm)<br>
 - [Prims's/Kruskal's Algorithm](Geeks%20for%20Geeks/Minimum%20Spanning%20Tree)

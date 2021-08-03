@@ -1,6 +1,7 @@
 # CodeLibrary
 A repo for my submissions to online coding and competitive programming platforms like CodeChef, CodeForces, Geeks for Geeks, HackerRank, LeetCode, etc.
 
+Below are some problems that require a revisit / are a bit tricky / are some core concepts.  
 (See .java or .swift files for code and explanation)
 
 ## Trees

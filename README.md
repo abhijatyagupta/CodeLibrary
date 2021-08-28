@@ -4,6 +4,9 @@ A repo for my submissions to online coding and competitive programming platforms
 Below are some problems that require a revisit / are a bit tricky / are some core concepts.  
 (See .java or .swift files for code and explanation)
 
+## String
+- [Minimum Characters required to make a String Palindromic](InterviewBit/Minimum%20Characters%20required%20to%20make%20a%20String%20Palindromic)
+
 ## Trees
 - [Recover Binary Search Tree](InterviewBit/Recover%20Binary%20Search%20Tree)
 

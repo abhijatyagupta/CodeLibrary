@@ -87,3 +87,4 @@ Below are some problems that require a revisit / are a bit tricky / are some cor
 - [Largest square submatrix with all 1s](Geeks%20for%20Geeks/Largest%20square%20formed%20in%20a%20matrix)
 - [Best Time to Buy and Sell Stock III](LeetCode/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III) - at most 2 transactions allowed
 - [Best Time to Buy and Sell Stock IV](LeetCode/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV) - using bottom-up dp
+- [Evaluate Expression to True](InterviewBit/Evaluate%20Expression%20To%20True)

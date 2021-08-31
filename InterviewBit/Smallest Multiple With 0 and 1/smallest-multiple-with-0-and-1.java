@@ -2,7 +2,7 @@ public class Solution {
     public String multiple(int A) {
         if (A <= 1) return String.valueOf(A);
         Queue<Integer> queue = new LinkedList<>();  // queue to perform bfs on remainders
-        String[] dp = new String[A];    // will hold, on the i-th position, the number with only 0s and 1s which when divided by A gives i remainder
+        String[] dp = new String[A];    // will hold, on the i-th position, the number with only 0s and 1s which when divided by A gives remainder i
         dp[1] = "1";    // for most cases, 1 % A will be 1
         queue.offer(1);
         while(!queue.isEmpty()) {

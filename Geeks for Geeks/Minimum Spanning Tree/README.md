@@ -17,7 +17,7 @@ of 4 is shown above.</span>
 <p><span style="font-size:18px"><strong>Example 2:</strong></span></p>
 
 <pre><span style="font-size:18px"><strong>Input:</strong></span>
-<img alt="" src="images/2.png" class="img-responsive">
+<img alt="" src="images/3.png" class="img-responsive">
 <span style="font-size:18px"><strong>Output:</strong>
 5
 <strong>Explanation</strong>:

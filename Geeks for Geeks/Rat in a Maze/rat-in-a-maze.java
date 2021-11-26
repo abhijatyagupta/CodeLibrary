@@ -8,7 +8,7 @@ class GfG {
         return list;
     }
 
-    static void traverseMatrix(int[][] m, boolean[][]visited, ArrayList<String> list, int i, int j, String s) {
+    static void traverseMatrix(int[][] m, boolean[][] visited, ArrayList<String> list, int i, int j, String s) {
         if (i < 0 || i >= m.length || j < 0 || j >= m.length) return;   // return if the indices are out of bounds of the matrix
         if (m[i][j] == 0 || visited[i][j]) return;  // return if the path is blocked or if the cell is already visited
         visited[i][j] = true;   // mark this cell as visited

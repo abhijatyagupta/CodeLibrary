@@ -12,15 +12,11 @@ class Solution {
     static int compute(int[] weight, int[] value, int w, int n, int[][] dp) {
         if (n == 0 || w == 0) return 0;
         if (dp[n][w] != -1) return dp[n][w];
-        if (w - weight[n-1] < 0) {
-            dp[n][w] = compute(weight, value, w, n-1, dp);
-            return dp[n][w];
-        }
-        dp[n][w] = Math.max(
+        if (w - weight[n-1] < 0) return dp[n][w] = compute(weight, value, w, n-1, dp);
+        return dp[n][w] = Math.max(
             value[n-1] + compute(weight, value, w - weight[n-1], n-1, dp),
             compute(weight, value, w, n-1, dp)
         );
-        return dp[n][w];
     }
 }
 

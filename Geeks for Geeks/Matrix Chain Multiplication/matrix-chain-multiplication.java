@@ -17,8 +17,7 @@ class Solution {
             int product = multiply(arr, i, k, dp) + multiply(arr, k+1, j, dp) + (arr[i-1] * arr[k] * arr[j]);   // stores the sum of minimum multiplication operations required by, the left half of the range, the right half of the range and both the halves
             if (product < min) min = product;
         }
-        dp[i][j] = min;
-        return dp[i][j];
+        return dp[i][j] = min;
     }
 }
 
